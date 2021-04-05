@@ -1,0 +1,64 @@
+<%- include("template/cabecera",{tituloweb: 'Cotizacion'})%>
+<body>
+  <%- include('template/nav')%>
+      <!--Cotizacion-->
+      <div class="container">
+          <h1>Cotizacion</h1>
+          <form>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                <label for="" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-12 col-sm-6">
+                  <label for="" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="">
+                  </div>
+                <div class="col-12 col-sm-6">
+                <label for="" class="form-label">Cedula</label>
+                <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-12 col-sm-6">
+                <label for="" class="form-label">Edad</label>
+                <input type="text" class="form-control" id="">
+                </div>
+                <div class="col-12 col-sm-6">
+                <label for="" class="form-label">Sexo</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Femenino</option>
+                  <option value="1">Masculino</option>
+                </select>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <label for="" class="form-label">Estado Civil</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Union Libre</option>
+                    <option value="1">Soltero/a</option>
+                    <option value="2">Casado/a</option>
+                  </select>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <label for="" class="form-label">Tienes hijos</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>No</option>
+                      <option value="1">Si</option>
+                    </select>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <label for="" class="form-label">Telefono</label>
+                      <input type="text" class="form-control" id="">
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <label for="" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <label for="" class="form-label">Correo</label>
+                          <input type="text" class="form-control" id="">
+                          </div>
+            </div>
+            <button type="submit" class="mt-3 btn btn-primary">Enviar</button>
+          </form>
+      </div>
+      <!--Cotizacion-->
+      <%- include('template/footer'); %>
